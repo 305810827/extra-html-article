@@ -114,7 +114,7 @@ module.exports = async (input, links = []) => {
     // links: ulinks,
     // image: image ? absolutifyUrl(bestUrl, image) : '',
     content: normalizedContent,
-    author,
+    // author,
     // source: getSource(source, bestUrl),
     // ttr: getTimeToRead(textContent),
   };
