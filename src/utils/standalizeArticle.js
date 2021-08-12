@@ -29,7 +29,7 @@ module.exports = (htmlArticle, url) => {
   //   }
   // });
 
-  const minifiedHtml = htmlmin($.html(), {
+  const minifiedHtml = htmlmin($.text(), {
     removeComments: true,
     removeEmptyElements: true,
     removeEmptyAttributes: true,
