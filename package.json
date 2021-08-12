@@ -1,11 +1,11 @@
 {
   "version": "4.2.9",
-  "name": "article-parser",
+  "name": "extra-html-article",
   "description": "To extract main article from given URL/HTML",
   "homepage": "https://github.com/305810827/extra-html-article",
   "repository": {
     "type": "git",
-    "url": "git@github.com:ndaidong/article-parser.git"
+    "url": "https://github.com/305810827/extra-html-article.git"
   },
   "author": "305810827",
   "main": "./index.js",
@@ -38,11 +38,10 @@
     "nock": "^13.1.0"
   },
   "keywords": [
-    "article",
     "extractor",
+    "html",
     "parser",
-    "readability",
-    "util"
+    "article"
   ],
   "license": "MIT"
 }
