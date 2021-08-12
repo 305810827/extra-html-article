@@ -1,13 +1,13 @@
 {
   "version": "4.2.9",
   "name": "article-parser",
-  "description": "To extract main article from given URL",
-  "homepage": "https://ndaidong.github.io/article-parser-demo/",
+  "description": "To extract main article from given URL/HTML",
+  "homepage": "https://github.com/305810827/extra-html-article",
   "repository": {
     "type": "git",
     "url": "git@github.com:ndaidong/article-parser.git"
   },
-  "author": "@ndaidong",
+  "author": "305810827",
   "main": "./index.js",
   "types": "./index.d.ts",
   "engines": {
