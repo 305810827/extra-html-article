@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand />
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="af938f77-a0c0-4cf8-b9c2-b2c0c3fa6c4e" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,6 +16,25 @@
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1628753702" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$/../extra-html-article" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="ProjectId" id="1wcJLW423RL8GOHCYC8N8JdUrzU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -23,9 +46,17 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -38,11 +69,32 @@
       <option name="presentableId" value="Default" />
       <updated>1628751887643</updated>
       <workItem from="1628751890535" duration="217000" />
-      <workItem from="1628752179566" duration="1449000" />
+      <workItem from="1628752179566" duration="4864000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="292" y="23" key="CommitChangelistDialog2" timestamp="1628753720817">
+      <screen x="0" y="23" width="1399" height="877" />
+    </state>
+    <state x="292" y="23" key="CommitChangelistDialog2/0.23.1399.877@0.23.1399.877" timestamp="1628753720817" />
+    <state x="233" y="100" key="SettingsEditor" timestamp="1628753890870">
+      <screen x="0" y="23" width="1399" height="877" />
+    </state>
+    <state x="233" y="100" key="SettingsEditor/0.23.1399.877@0.23.1399.877" timestamp="1628753890870" />
   </component>
 </project>

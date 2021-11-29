@@ -2,14 +2,22 @@
 
 const cheerio = require('cheerio');
 const sanitize = require('sanitize-html');
+const {Parser} = require('htmlparser2')
+const Readability = require('./element')
 
 const {minify: htmlmin} = require('html-minifier-terser');
 
 const absolutifyUrl = require('./absolutifyUrl');
 const {getSanitizeHtmlOptions} = require('../config');
 
+
 module.exports = (htmlArticle, url) => {
-  const $ = cheerio.load(htmlArticle, {
+
+  const readability = new Readability()
+  const parser = new Parser(readability)
+  parser.write(htmlArticle)
+
+  const $ = cheerio.load(readability.getText() || htmlArticle, {
     normalizeWhitespace: true,
     decodeEntities: true,
   });
