@@ -59,7 +59,7 @@ class Readability {
     }
 
     ontext(text) {
-        this._currentElement.children.push(text);
+        text && this._currentElement.children.push(text);
     }
 
     onclosetag(tagName) {
@@ -68,9 +68,9 @@ class Readability {
         this._currentElement = elem.parent;
         if (tagName === "p" || tagName === "div") {
             if (!/^[\s\t\r\n]+$/.test(elem.children.join(''))) {
-                let text = elem.children.join(',').trim()
-                if (!/[.。,，！!?？]+/.test(text[text.length-1])) {
-                    elem.children.length = 0
+                let text = elem.children.join('').trim()
+                if (!/[.。,，！!?？:]+/.test(text[text.length-1])) {
+                    // elem.children.length = 0
                     elem.children = [`${text}。`]
                 }
             }
