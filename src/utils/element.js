@@ -69,7 +69,7 @@ class Readability {
         if (tagName === "p" || tagName === "div") {
             if (!/^[\s\t\r\n]+$/.test(elem.children.join(''))) {
                 let text = elem.children.join('').trim()
-                if (!/[.。,，！!?？:]+/.test(text[text.length-1])) {
+                if (!/[.。,，！!?？:：]+/.test(text[text.length-1])) {
                     // elem.children.length = 0
                     elem.children = [`${text}。`]
                 }

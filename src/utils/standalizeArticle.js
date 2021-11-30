@@ -16,7 +16,7 @@ module.exports = (htmlArticle, url) => {
   const readability = new Readability()
   const parser = new Parser(readability)
   parser.write(htmlArticle)
-  const $ = cheerio.load(readability.getText() || htmlArticle, {
+  const $ = cheerio.load(readability.getText()?.replace(/[\s\t\n]+/g, '。')?.replace(/[.。,，！!?？:：]+。/g,'。') || htmlArticle, {
     normalizeWhitespace: true,
     decodeEntities: true,
   });
